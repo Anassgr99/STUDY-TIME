@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<title>STUDY TIME</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="final.css">
+
+
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="-sidebar -bar-block -white -card -animate-left -xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="_close()" class="-bar-item -button -display-topright -text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="-bar-item -button" >debuté</a>
+  <a href="#" class="-bar-item -button">Link 2</a>
+  <a href="#" class="-bar-item -button">Link 3</a>
+  <a href="#" class="-bar-item -button">Link 4</a>
+  <a href="#" class="-bar-item -button">Link 5</a>
+</nav>
+
+<!-- Navbar -->
+<div class="-top">
+ <div class="-bar -theme-d2 -left-align">
+  <a class="-bar-item -button -hide-medium -hide-large -right -hover-white -theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="-bar-item -button -teal"><i class="fa fa-home -margin-right"></i>HOME</a>
+  <a  class="-bar-item -button -hide-small -hover-white"href="test.hmtl.html"target="_blank">Cours</a>
+  <a href="#work" class="-bar-item -button -hide-small -hover-white">Exercices</a>
+  <a href="#contact" class="-bar-item -button -hide-small -hover-white">Contact</a>
+    <div class="-dropdown-hover -hide-small">
+    <button class="-button" title="Notifications">LEARN + <i class="fa fa-caret-down"></i></button>     
+    <div class="-dropdown-content -card-4 -bar-block">
+      <a href="#" class="-bar-item -button">HTML</a>
+      <a href="#" class="-bar-item -button">CSS</a>
+      <a href="#" class="-bar-item -button">JAVA SCRIPT</a>
+    </div>
+  </div>
+  <a href="#" class="-bar-item -button -hide-small -right -hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="-bar-block -theme-d2 -hide -hide-large -hide-medium">
+    <a href="#team" class="-bar-item -button">HTML</a>
+    <a href="#work" class="-bar-item -button">CSS</a>
+    <a href="#pricing" class="-bar-item -button">JAVA SCRIPT</a>
+    <a href="#contact" class="-bar-item -button">Contact</a>
+    <a href="#" class="-bar-item -button">Search</a>
+  </div>
+</div>
+
+
+<!-- Team Container -->
+<div class="-container -padding-64 -center" id="team">
+<h2>Notre cours:</h2>
+<p>voulez-vous commencer la programmation WEB !!</p>
+
+<div class="-row"><br>
+
+<div class="-quarter1">
+<h2>  Gestion des fichiers</h2>
+<p> Un site web contient plusieurs types de fichiers (texte, code, feuilles de styles, multimedia, etc.). Construire un site web revient à créer une structure dans laquelle ces fichiers peuvent interagir les uns avec les autres. Dans cet article, nous détaillerons cette problématique tout en expliquant comment donner une structure cohérente à votre site web.</p><br><br>
+
+<h2>  Les bases de HTML</h2>
+<p>Hypertext Markup Language (HTML) correspond au code que vous utiliserez pour structurer les différents contenus en ligne. Par exemple, le contenu sera‑t‑il un ensemble de paragraphes, ou une liste à puces ? Y aura‑t‑il des images insérées ? Aurai‑je une table de données ? Sans vous submerger, Les bases du HTML vous donne assez d'informations pour que vous soyez un familier du HTML.</p>
+<br><br>
+<h2>Les bases des CSS</h2>
+<p>Les Cascading Stylesheets (CSS) (« feuilles de styles en cascade ») reçoivent le code à utiliser pour mettre en forme votre site Web. Par exemple, voulez‑vous que le texte soit en noir ou en rouge ? Où le contenu doit‑il être placé sur l'écran ? Quelles devront être les images de fond et les couleurs utilisées pour décorer votre site web ? « Les bases des CSS » vous apprendra tout ce dont vous avez besoin pour commencer.</p>
+<br><br>
+<h2>Les bases de JavaScript</h2>
+<p>JavaScript est le langage de programmation à utiliser pour ajouter des fonctionnalités interactives dans vos sites Web, par exemple des jeux, les événements déclenchés lorsqu'un bouton est pressé ou lorsque des données sont entrées dans un formulaire, des effets de style dynamiques, des animations, etc. Les bases de JavaScript vous offrent un aperçu des possibilités de ce puissant langage et vous montre comment commencer à l'utiliser.</p>
+<br><br>
+<h2>ublier votre site web</h2>
+<p>Une fois votre code écrit et la structure des fichiers organisée, vous devez tout mettre en ligne pour permettre son accès aux autres. Publier votre site Web décrit comment mettre en ligne votre site web avec un effort minimum.</p>
+<br><br>
+<h2>Le fonctionnement du Web</h2>
+<p>Une succession d'opérations complexes, dont vous n'avez pas forcément à vous soucier, intervient chaque fois que vous accédez à votre site Web favori. Le fonctionnement du Web décrit ce qui se passe lorsque vous affichez un site web sur votre ordinateur.</p>
+
+</div>
+
+<!-- Work Row -->
+
+<!-- Contact Container -->
+<div class="-container -padding-64 -theme-l5" id="contact">
+  <div class="-row">
+    <div class="-col m5">
+    <div class="-padding-16"><span class="-xlarge -border-teal -bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+     
+      <p><i class="fa fa-map-marker -text-teal -xlarge"></i>  RABAT,MA</p>
+      <p><i class="fa fa-phone -text-teal -xlarge"></i>  +212696620618</p>
+      <p><i class="fa fa-envelope-o -text-teal -xlarge"></i>  anasselgaradi@gmail.com</p>
+    </div>
+    <div class="-col m7">
+      <form class="-container -card-4 -padding-16 -white" action="/action_page.php" target="_blank">
+      <div class="-section">      
+        <label>Name</label>
+        <input class="-input" type="text" name="Name" required>
+      </div>
+      <div class="-section">      
+        <label>Email</label>
+        <input class="-input" type="text" name="Email" required>
+      </div>
+      <div class="-section">      
+        <label>Message</label>
+        <input class="-input" type="text" name="Message" required>
+      </div>  
+      <input class="-check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <button type="submit" class="-button -right -theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="/images/map.jpg" class="-image -greyscale-min" style="width:100%;">
+
+<!-- Footer -->
+<footer class="-container -padding-32 -theme-d1 -center">
+  <h4>Follow Us</h4>
+  <a class="-button -large -teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="-button -large -teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="-button -large -teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="-button -large -teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="-button -large -teal -hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Powered by <a href="https://www.facebook.com/me/" target="_blank">anass el garadi</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="-tooltip -right">
+    <span class="-text -padding -teal -hide-small">Go To Top</span>   
+    <a class="-button -theme" href="#myPage"><span class="-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function _open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function _close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("-show") == -1) {
+    x.className += " -show";
+  } else { 
+    x.className = x.className.replace(" -show", "");
+  }
+}
+
+
+
+
+document.getElementById("abc").style.marginLeft='200px';
+document.getElementById("abc").style.top='-10px';
+var pos=0;
+function Descendre(){
+  pos++; 
+  document.getElementById("abc").style.top=pos+'px';
+  
+  }
+function Monter(){
+  pos--; 
+  document.getElementById("abc").style.top=pos+'px';
+  
+  }
+  function myFunction() {
+  window.open("test.html");
+}
+</script>
+
+</body>
+</html>
+
